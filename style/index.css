@@ -1,0 +1,50 @@
+body {
+    width: 600px;
+    margin: auto;
+    box-shadow: 1px 1px 3px black;
+    border-radius: 5px;
+}
+#title {
+    margin: 4px auto;
+    text-align: center;
+    text-transform: capitalize;
+    width: auto;
+    padding: 4px;
+    background-color: burlywood;
+}
+
+.recipes {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    width: auto;
+    height: 160px;
+    padding: 4px;
+}
+
+.recipelist {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.recipecard {
+    position: absolute;
+}
+
+.recipecard img {
+    margin: auto;
+    width: 190px;
+}
+
+.recname {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    background: orange;
+    width: auto;
+    padding: 6px;
+    
+}
